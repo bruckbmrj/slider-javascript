@@ -42,3 +42,23 @@ img {
   opacity: 1;
   transform: scale(1);
 }
+
+.arrow-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.arrow-nav button {
+  width: 102px;
+  height: 42px;
+  background: #2769df;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.arrow-nav button:hover {
+  background: #0e2c62;
+  transition: .3s;
+}
